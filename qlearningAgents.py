@@ -116,8 +116,6 @@ class QLearningAgent(ReinforcementAgent):
 
         return action
 
-        return action
-
     def update(self, state, action, nextState, reward):
         """
           The parent class calls this to observe a
